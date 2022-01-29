@@ -1,0 +1,91 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Cairo',sans-serif;
+}
+.section{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #FFF;
+}
+.container{
+    background-color: #FFF;
+    border-radius: 5px;
+    box-sizing: 4px 4px 4px 0 #d1d9e6 inset,
+    -4px -4px 4px 0 #d1d9e6 inset;
+    padding: 50px 20px;
+    border: 3px solid #d1d9e6;
+    text-align: center;
+    max-width: 800px;
+    width: 95%;
+    min-height: 400px;
+}
+h2{
+    color: #43a047;
+    position: relative;
+    font-size: 2rem;
+}
+h2::after,
+h2::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    background-color: #66bb6a;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h2::after{
+    width: 100px;
+    bottom: -5px;
+}
+h2::before{
+    width: 50px;
+    bottom: -15px;
+}
+.qurancontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 50px auto;
+    min-height: 100px;
+    width: 95%;
+    color: #444;
+}
+.btn{
+    background: linear-gradient(60deg,
+    #66bb6a,#43a047);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, .14),
+    0px 7px 10px -4px rgba(76, 175, 80, .40);
+    color: #FFF;
+    border: 0;
+    border-radius: 2px;
+    padding: 14px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition: .3s all ease-in-out;
+}
+btn:hover,
+btn:active{
+    transform: scale(.95);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
